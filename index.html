@@ -9,10 +9,10 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Real or Cake</title>
+    <title>Cake or Not</title>
 </head>
 <body>
-    <h1 class="heading">Real or Cake </h1>
+    <h1 class="heading">Cake or Not!</h1>
     <h2 class="subheading">Challenge</h2>
     <div class="videoScreen">
         <p class="innertext">It's very simple; is it a cake or not? give it a try!</p>
@@ -20,12 +20,13 @@
     </div>
 
     <div>
-        <button class="btn" id="real">Real</button>
-        <button class="btn" id="cake">Cake</button>
+        <button data-type="cake" class="btn" id="real">Cake</button>
+        <button data-type="not"class="btn" id="cake">Not!</button>
     </div>
 
     <div class="score-area">
-        <span id="score">0</span>
+        <p class="scores">Correct Answers <span id="score">0</span></p>
+        <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
     </div>
     
     <script src="assets/js/script.js"></script>
