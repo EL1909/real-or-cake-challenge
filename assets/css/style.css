@@ -1,19 +1,34 @@
+body {
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    color: #445361;
+    text-align: center;
+}
+
 .heading {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     height: 50px;
     font-family: raleway, sans-serif;
 }
 
 .subheading {
-    text-align: center;
-    font-size: 2rem;
-    height: 50px;
-    font-family: raleway, sans-serif;
+    margin: 15px auto;
+    width: 100%;
+    font-size: 2.5rem;
+    height: 25px;
     color:white;
     background-color: #e379e750;
     margin: 0;
-    padding: 25px;
+    content: 5px;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.innertext {
+    margin: 15px auto;
+    width: 60%;
+    font-size: 1.5rem;
 }
 
 .videoScreen {
@@ -29,4 +44,39 @@
 #cake-video {
     width: 100%;
     height: 100%;
+    padding-bottom: 15px;
+}
+
+.btn {
+    width: 220px;
+    height: 60px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+    color: white;
+    margin-top: 25px;
+    background-color: #445361;
+    border: 1px transparent;
+    border-radius: 20px;
+}
+
+.btn:active,
+.btn:hover {
+    background-color:#e379e750;
+    color: #445361;;
+}
+
+.btn:focus {
+    outline: none;
+}
+.score-area {
+    margin: 5px auto;
+    width: 45%;
+    font-size: 1.2rem;
+}
+
+.scores {
+    display: inline-block;
+    padding: 25px;
 }
